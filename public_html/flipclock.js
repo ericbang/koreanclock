@@ -1338,6 +1338,8 @@ var FlipClock;
 					if(value==12) value='열두';
 
 					value += '시 ';
+ 
+
 				}
 				else 
 				if(i==1 || i==2){
@@ -1384,12 +1386,19 @@ var FlipClock;
 					if(i==1)value += '분 ';
 					if(i==2)value += '초';
 				} 
+
+				// console.log(value);
  
 				
 				for(var x = 0; x < value.length; x++) {
 					data.push(value.charAt(x));
 				}
+
 			});
+
+
+			// console.log(data);
+
 
 			if(data.length > this.minimumDigits) {
 				this.minimumDigits = data.length;
@@ -1401,6 +1410,7 @@ var FlipClock;
 				}
 			}
 
+ 
 			// console.log(data);
 
 			return data;
@@ -1594,7 +1604,7 @@ var FlipClock;
 				date = this.getDateObject();
 			}
 
-			console.log(date);
+			// console.log(date);
 
 			
 			var hours = date.getHours();
