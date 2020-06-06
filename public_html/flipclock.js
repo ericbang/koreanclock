@@ -1380,7 +1380,7 @@ var FlipClock;
 						if(value==7) value ='칠'; 
 						if(value==8) value ='팔'; 
 						if(value==9) value ='구';  
-						if(value==0) value ='영';  
+						if(value==0) value ='에릭빵';  
 					}
 
 					if(i==1)value += '분 ';

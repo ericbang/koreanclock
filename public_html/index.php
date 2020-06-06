@@ -12,7 +12,7 @@
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/earlyaccess/hanna.css">
 <link rel="stylesheet" href="flipclock<?php if($_GET['m']=='hi')echo '2';?>.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="flipclock<?php if($_GET['m']=='hi')echo '2';?>.min.js"></script>		
+<script src="flipclock<?php if($_GET['m']=='hi')echo '2';?>.min.js?v=2"></script>		
 </head>
 <body>
 <script>
